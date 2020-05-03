@@ -1,0 +1,53 @@
+{
+  "info": {
+    "_postman_id": "d0fbbf8d-f5a2-45d5-be36-e054d8a5ed12",
+    "name": "Very Important Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Public API (which is very important)",
+      "_postman_id": "b96b30dd-8486-48ec-bbf3-2e3f3c766651",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://www.postman-echo.com/get",
+          "protocol": "https",
+          "host": [
+            "www",
+            "postman-echo",
+            "com"
+          ],
+          "path": [
+            "get"
+          ],
+          "query": [
+            {
+              "key": "name",
+              "value": "Bond",
+              "disabled": true
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Another Public API (which is very important)",
+      "_postman_id": "6fbbe473-cf60-4358-b51f-f67b8b5e295d",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": "https://www.postman-echo.com/post"
+      },
+      "response": []
+    }
+  ]
+}
