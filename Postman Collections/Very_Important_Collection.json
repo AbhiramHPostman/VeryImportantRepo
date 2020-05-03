@@ -15,7 +15,7 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "https://www.postman-echo.com/get?name=Bond",
+          "raw": "https://www.postman-echo.com/get",
           "protocol": "https",
           "host": [
             "www",
@@ -28,7 +28,8 @@
           "query": [
             {
               "key": "name",
-              "value": "Bond"
+              "value": "Bond",
+              "disabled": true
             }
           ]
         }
