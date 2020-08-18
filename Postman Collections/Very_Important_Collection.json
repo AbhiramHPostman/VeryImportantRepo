@@ -45,7 +45,25 @@
       "request": {
         "method": "POST",
         "header": [],
-        "url": "https://www.postman-echo.com/post"
+        "url": {
+          "raw": "https://www.postman-echo.com/post?secret=shush",
+          "protocol": "https",
+          "host": [
+            "www",
+            "postman-echo",
+            "com"
+          ],
+          "path": [
+            "post"
+          ],
+          "query": [
+            {
+              "key": "secret",
+              "value": "shush",
+              "type": "text"
+            }
+          ]
+        }
       },
       "response": []
     }
