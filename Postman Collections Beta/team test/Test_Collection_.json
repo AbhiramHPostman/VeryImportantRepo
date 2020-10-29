@@ -1,0 +1,85 @@
+{
+  "info": {
+    "_postman_id": "835ef1cc-7812-4db3-8f8a-87ca5a0e47ba",
+    "name": "Test Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "get",
+      "_postman_id": "ffb9e9cb-5320-478a-93cc-b67803c08252",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "postman-echo.com/get"
+      },
+      "response": []
+    },
+    {
+      "name": "one more request",
+      "_postman_id": "e7dac952-1429-4847-b95b-5db30935f816",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": ""
+      },
+      "response": []
+    },
+    {
+      "name": "one more request Copy",
+      "_postman_id": "6a2d7a18-bb3b-4f29-b957-1040a072672b",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "postman-echo.com/get?name=bond",
+          "host": [
+            "postman-echo",
+            "com"
+          ],
+          "path": [
+            "get"
+          ],
+          "query": [
+            {
+              "key": "name",
+              "value": "bond"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "id": "f3cbd487-125c-457f-89a9-8a0ec405a084",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "id": "f1767b80-dc3d-434d-8bb1-9f75cb2c32e7",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ]
+}
