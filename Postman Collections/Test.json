@@ -48,5 +48,27 @@
       },
       "response": []
     }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "id": "5e375acd-6e66-4cb6-95e5-3d8e7df383d0",
+        "type": "text/javascript",
+        "exec": [
+          "console.log('a change')"
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "id": "3a627376-61a7-408e-962d-cf5875eae454",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    }
   ]
 }
