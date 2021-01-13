@@ -15,7 +15,7 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "https://www.postman-echo.com/get?country=日本",
+          "raw": "https://www.postman-echo.com/get?country=日本日本",
           "protocol": "https",
           "host": [
             "www",
@@ -33,7 +33,7 @@
             },
             {
               "key": "country",
-              "value": "日本"
+              "value": "日本日本"
             }
           ]
         }
