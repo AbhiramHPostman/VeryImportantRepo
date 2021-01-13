@@ -15,7 +15,7 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "https://www.postman-echo.com/get?name=Bond",
+          "raw": "https://www.postman-echo.com/get?name=Bond&country=\u65e5\u672c",
           "protocol": "https",
           "host": [
             "www",
@@ -29,6 +29,11 @@
             {
               "key": "name",
               "value": "Bond"
+            },
+            {
+              "key": "country",
+              "value": "\u65e5\u672c",
+              "type": "text"
             }
           ]
         }
