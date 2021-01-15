@@ -1,0 +1,56 @@
+{
+  "info": {
+    "_postman_id": "2feb18d8-33ac-41b8-941b-5b10e917dfbe",
+    "name": "new collection!",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "new req 1191",
+      "_postman_id": "bb4fea9c-6f94-47c3-a7f2-0e1ce926bf3b",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "postman-echo.com?country=日本",
+          "host": [
+            "postman-echo",
+            "com"
+          ],
+          "query": [
+            {
+              "key": "country",
+              "value": "日本"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "id": "337f7686-7b5f-4a4e-b1d1-5cc33d787339",
+        "type": "text/javascript",
+        "exec": [
+          "a"
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "id": "25525498-af97-4e96-be61-d930ceaa6ac4",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ]
+}
